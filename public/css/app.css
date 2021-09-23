@@ -46,7 +46,7 @@ header{
 }
 
 .my-table .row > div > *{
-	display: block;
+	display: flex;
 }
 
 .my-table .my-header{
@@ -79,6 +79,9 @@ header{
 .product-body{
 	width: 50%;
 	padding: 1em 2em;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 .products .form-control{
@@ -91,7 +94,7 @@ header{
 }
 
 span.collapsing{
-	display: block;
+	display: flex;
 }
 
 .cart{
@@ -123,10 +126,6 @@ span.collapsing{
     	text-align: center;
 	}
 
-	.product-row{
-		display: block;
-	}
-
 	.product-row img{
 		width: 100%;
 	}
@@ -139,5 +138,8 @@ span.collapsing{
 
 	.cart{
 		height: 24px;
+	}
+	h5 em{
+		justify-content: right;
 	}
 }
