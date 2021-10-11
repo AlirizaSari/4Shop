@@ -142,4 +142,8 @@ span.collapsing{
 	h5 em{
 		justify-content: right;
 	}
+
+	.discount{
+		color: red;
+	}
 }
